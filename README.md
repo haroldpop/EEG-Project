@@ -27,4 +27,20 @@ The Dynamical Graph Convolutional Neural Network, is an extension of the traditi
 Nevertheless, the DGCNN can only learn the linear relationship between channels which characterizes the strength of connections between a two channels. 
 The ATDD-LSTM neural network is a neural network model which contrary to DGCNN can characterize non-linear relations among two channels of an EEG. This model is like an improved version of LSTM (Long Short Term Memory) for emotion recognition. Even if the three cited models are independent each other, we can see that from the ATDD-LSTM and DGCNN we can learn useful informations about relationship between different channels of the EEG. These two models are trained with the extracted features given with the dataset, these features are general features of EEG signals. But, we can imagine that if we learn this two algorithms with better features like probably with the one give by the neural network based on BiDANN framework we could achieve better perfomance and a better understanding of the datas. 
 
+### III) Project management
+
 Because, we are a team of three members, we found that make one member responsible of one model can be a good idea. Like this we can avoid some code understanding problems. Moreover, because we will be responsible of one architecture and we wiil have to explain it to the team in the future, a such split will give us a deeper understanding of what we did during this project. Although we are each responsible of one part of the project, that doesn't mean that we don't help each other and that we will just make our piece of code and give it to others.
+
+For the next weeks, Pyae will be responsible of the ADD-LSTM architecture, Anupam to BiDANN framework based model and Harold to the DGCNN model. This our understanding of the project for the moment and the way we will process. 
+
+You can find code advancement of each member in the folder Code, and the associated folder. And you can find the documentation in the folder Documentation. 
+
+### IV) Week2
+
+#### a) Update 
+
+Split of the project between team members. Because the architectures are different from what we saw in class, we are still at the first stage of the implementation, that means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
+
+#### b) Plan for next week 
+
+Finish the implementation part to have something consistent to show for the project interview of the first Novemeber. 
