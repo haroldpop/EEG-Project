@@ -42,7 +42,7 @@ You can find the code advancement of each member in the folder Code, and the ass
 
 Split of the project between team members. 
 
-Because the architectures are different from what we saw in class, we are still at the first stage of the implementation, which means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
+We are still at the first stage of the implementation, which means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
 
 #### b) Plan for next week 
 
