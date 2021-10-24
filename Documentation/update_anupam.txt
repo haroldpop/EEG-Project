@@ -1,0 +1,4 @@
+1)working on paper"A Novel Neural Network Model based on Cerebral Hemispheric Asymmetry for EEG Emotion Recognition"
+2) main paper about datasets "Investigating Critical Frequency Bands and Channels for EEG-Based Emotion Recognition with Deep Neural Networks"
+3) exracted preprocessed eeg datasets to python 
+4) understanding datasets and working on data processing since this work is based on left and right hemispheric eeg data separtely
