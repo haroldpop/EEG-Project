@@ -39,8 +39,10 @@ You can find code advancement of each member in the folder Code, and the associa
 
 #### a) Update 
 
-Split of the project between team members. Because the architectures are different from what we saw in class, we are still at the first stage of the implementation, that means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
+Split of the project between team members. 
+
+Because the architectures are different from what we saw in class, we are still at the first stage of the implementation, that means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
 
 #### b) Plan for next week 
 
-Finish the implementation part to have something consistent to show for the project interview of the first Novemeber. 
+Finish the implementation part to have something consistent to present for the project interview of the first Novemeber. 
