@@ -36,15 +36,13 @@ For the next weeks, Pyae will be responsible for the ADD-LSTM architecture, Anup
 
 You can find the code advancement of each member in the folder Code, and the associated folder. And you can find the documentation in the folder Documentation. 
 
-### IV) Week2
+### IV) Week3
 
 #### a) Update 
 
 Split of the project between team members. 
 
-We are still at the first stage of the implementation, which means that we already did the data exploration, see how the dataset is composed and now we try to implement the different models. 
-
-For the moment our biggest issue is that we are going to implement unknown architecture to us before the start of the project. So, we have to learn some theory before dive into the practical aspect. 
+Unfortunately, we were not able to develop the deep models yet. We are still working understanding the datas and the model to implement. 
 
 #### b) Plan for next week 
 
