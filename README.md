@@ -46,5 +46,5 @@ Unfortunately, we were not able to develop the deep models yet. We are still wor
 
 #### b) Plan for next week 
 
-Finish the implementation part to have something consistent to present for the project interview of the first November. 
+Advance in the implementation.
 
