@@ -36,15 +36,15 @@ For the next weeks, Pyae will be responsible for the ADD-LSTM architecture, Anup
 
 You can find the code advancement of each member in the folder Code, and the associated folder. And you can find the documentation in the folder Documentation. 
 
-### IV) Week3
+### IV) Week4
 
-#### a) Update 
+To be clearer in our advancement, we decided to split the update part between each member
 
-Split of the project between team members. 
+#### a) Pyae
 
-Unfortunately, we were not able to develop the deep models yet. We are still working understanding the datas and the model to implement. 
 
-#### b) Plan for next week 
+#### b) Anupam
 
-Advance in the implementation.
+
+#### c) Harold
 
