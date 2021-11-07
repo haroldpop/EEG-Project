@@ -48,7 +48,7 @@ To be clearer in our advancement, we decided to split the update part between ea
 
 #### c) Harold
 
-I didn't work a lot on the project this week. Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
+Unfortunately, I didn't work a lot on the project this week. Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
 without truly understanding everything. I hope that the more I will make experiments and try the more I will understand what's going on inside and how works the neural network. Indeed, in the beginning, I believed that to be sure of the results I will present I will have to implement at least one time everything by myself, 
 but I was wrong.
 Moreover, thanks to this [website](https://theaisummer.com/graph-convolutional-networks/) and this [blog](https://towardsdatascience.com/graph-convolutional-networks-for-geometric-deep-learning-1faf17dee008), I realized that the implementation of the model described in my paper should not be so complicated and so I will be able to understand 
@@ -58,4 +58,4 @@ Since the last project update, I understood what is the "spatial filtering" func
 
 *I update my code in the code folder.*
 
-My plan for next week is to test the model I created and compare the results with the results in the paper.
+My plan for next week is to test the model I created and compare the results with the results in the paper. My main concerns for the next week, will be to check the update rules of the parameters theta and W (the chevyshev coefficients, and the adjency matrix). Effectively, it is the first time I use nn.parameter() and I don't know how it works yet. The other concern will be to add regularization in the updatong rule with the PyTorch optimizer. 
