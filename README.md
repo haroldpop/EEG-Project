@@ -10,7 +10,7 @@ To create this deliverable, we will begin by working on the SEED database provid
 
 
 ## II) State of the art
-
+ 
 ### 1) Human emotions
 
 According to Eckman, there are 6 basic human emotions: * joy, sadness, surprise, fear, anger, and disgust*. Even if we don't know why there are classified as basics, the fact that these 6 emotions are the basic one, seems to be a general truth. One emotion is characterized by three dimensions: dominance, arousal, and valence. Often, the dominance is omitted and so the emotion can also be characterized by two dimensions: arousal and valence. The arousal measures the degree of how exciting or apathetic an emotion is and the valence measures if the emotion is positive or negative (a [diagram](https://www.pinterest.com/pin/354588170647498721/) made by Russel illustrate this). Since the SEED database is a dataset in which we classify human emotion based on three states (happy, neutral, and sad) we will not go further. 
@@ -48,7 +48,7 @@ To be clearer in our advancement, we decided to split the update part between ea
 
 #### c) Harold
 
-To be honest, I didn't work a lot on the project this week.Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
+I didn't work a lot on the project this week. Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
 without truly understanding everything. I hope that the more I will make experiments and try the more I will understand what's going on inside and how works the neural network. Indeed, in the beginning, I believed that to be sure of the results I will present I will have to implement at least one time everything by myself, 
 but I was wrong.
 Moreover, thanks to this [website](https://theaisummer.com/graph-convolutional-networks/) and this [blog](https://towardsdatascience.com/graph-convolutional-networks-for-geometric-deep-learning-1faf17dee008), I realized that the implementation of the model described in my paper should not be so complicated and so I will be able to understand 
