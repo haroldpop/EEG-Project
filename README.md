@@ -48,3 +48,16 @@ To be clearer in our advancement, we decided to split the update part between ea
 
 #### c) Harold
 
+To be honest, I didn't work a lot on this project this week.
+
+Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
+without truly understanding everything. I hope that the more I will make experiments and try the more I will understand what's going on inside and how works the neural network. Indeed, in the beginning, I believed that to be sure of the results I will present I will have to implement at least one time everything by myself, 
+but I was wrong.
+Moreover, thanks to this [website](https://theaisummer.com/graph-convolutional-networks/) and this [blog](https://towardsdatascience.com/graph-convolutional-networks-for-geometric-deep-learning-1faf17dee008), I realized that the implementation of the model described in my paper should not be so complicated and so I will be able to understand 
+everything after implementing the model.  
+
+Since the last project update, I understood what is the "spatial filtering" function mentioned in my referenced paper. I "converted" all the functions I created with NumPy in PyTorch. I initialized the adjacency matrix (just after initializing it, I realized that the initialization of this matrix can be not so important because, in the model, we are updating it to get the best one). I created the Chebyshev polynomials approximation. I created the PyTorch dataset and data loader (it is the first try, more work is required on it) and finally, I created the first model. 
+
+*I update my code in the code folder.*
+
+My plan for next week is to test the model I created and compare the results with the results in the paper.
