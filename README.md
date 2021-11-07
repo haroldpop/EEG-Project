@@ -48,9 +48,7 @@ To be clearer in our advancement, we decided to split the update part between ea
 
 #### c) Harold
 
-To be honest, I didn't work a lot on this project this week.
-
-Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
+To be honest, I didn't work a lot on the project this week.Anyway, this week I decided that instead of reading a lot of papers about graph theory, convolution in graph, etc, I am going to implement a first try of a DGCNN 
 without truly understanding everything. I hope that the more I will make experiments and try the more I will understand what's going on inside and how works the neural network. Indeed, in the beginning, I believed that to be sure of the results I will present I will have to implement at least one time everything by myself, 
 but I was wrong.
 Moreover, thanks to this [website](https://theaisummer.com/graph-convolutional-networks/) and this [blog](https://towardsdatascience.com/graph-convolutional-networks-for-geometric-deep-learning-1faf17dee008), I realized that the implementation of the model described in my paper should not be so complicated and so I will be able to understand 
