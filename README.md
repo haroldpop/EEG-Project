@@ -41,7 +41,8 @@ You can find the code advancement of each member in the folder Code, and the ass
 To be clearer in our advancement, we decided to split the update part between each member
 
 #### a) Pyae
-
+On data preprocesssing and working on github lstm code.
+also reviewing paper A LSTM based deep learning network for recognizing emotions using wireless brainwave driven system
 
 #### b) Anupam
 I am still worrking on data preprocesing as my training data and testing datasets didn't match with the paper i am working on. I have already divided my datasets for left,right, and with all electrodes which is needed for different cases. i am also dividing my data to 9s windows or 9 step for the data processing. As for lstm, i am working with  github file of eeg of the professor github file to change and work with my model. 
