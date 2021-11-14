@@ -45,9 +45,8 @@ On data preprocesssing and working on github lstm code.
 also reviewing paper A LSTM based deep learning network for recognizing emotions using wireless brainwave driven system
 
 #### b) Anupam
-I am still worrking on data preprocesing as my training data and testing datasets didn't match with the paper i am working on. I have already divided my datasets for left,right, and with all electrodes which is needed for different cases. i am also dividing my data to 9s windows or 9 step for the data processing. As for lstm, i am working with  github file of eeg of the professor github file to change and work with my model. 
-I also reviewing the paper " Domain-Adversarial Training of Neural Networks" paper which is in the later part after lstm.
-I planned to complete the data processing part and lstm with domain part (if possible) in the next week.
+I am still working on data preprocesing . I have already divided my datasets for left,right for one sample and with all electrodes which is needed for different cases. i  divided my data to 9s windows or 9 step for the data processing. Now i need to work for whole datasets. For the model, i prepared the lstm feature extractor and classifier model. I also reviewing the paper " Domain-Adversarial Training of Neural Networks" paper which is in the later part after lstm. I started to build a model for GRL but not completed.
+I planned to complete the data processing part and lstm with GRL and Discriminator in the next week and test my model.
 
 #### c) Harold
 
