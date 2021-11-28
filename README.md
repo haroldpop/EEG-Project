@@ -33,7 +33,7 @@ All scripts can be found in the script folder in the specified model implemented
 #### a) Attention-based LSTM
 
 #### b) BiDANN-Framework
-
+ In github, please find the code in EEG-Project/Code/BiDANN/main_project.ipynb. The final code name is main_project.ipynb. In the notebokk i have two model result. The first one is based on my bidann paper which is the starting method in the notebook. In bidann, i used lstm as a feature extractor and classifier for mapping with label space. The second method, i used BILSTM method for the same datasets. I have written two  method as first method and second method. In first method, the main program start from "Main Data Processing for Differential entrophy feature". Before that part, I only want to show the preprocessed eeg signal data format, number of features in extracted features, and plot of preprocessed signal as well as differential entrophy LDS plot.
 #### c) DGCNN
 
 In the notebook GraphConvNetworkChebyshevParameters, you can find how I create the GCNN model and how I varied different parameters to understand the impact of them and find the best one. 
