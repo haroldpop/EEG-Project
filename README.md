@@ -28,6 +28,8 @@ The ATDD-LSTM neural network is a neural network model which contrary to DGCNN c
 
 ### III) Notebook Guide
 
+All scripts can be found in the script folder in the specified model implemented. Below is the instructions of each member on which notebook you should pay attention.
+
 #### a) Attention-based LSTM
 
 #### b) BiDANN-Framework
