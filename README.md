@@ -7,8 +7,6 @@ The scope of our project is emotion recognition based on EEG signals. Our purpos
 
 To create this deliverable, we will begin by working on the SEED database provided by the Shangai Jiao Tong University. After implementing our first model trained on this dataset, we will work on another dataset such as DREAMER and DEAP. 
 
-
-
 ## II) State of the art
  
 ### 1) Human emotions
@@ -28,35 +26,15 @@ The Dynamical Graph Convolutional Neural Network is an extension of the traditio
 Nevertheless, the DGCNN can only learn the linear relationship between channels which characterizes the strength of connections between two channels. 
 The ATDD-LSTM neural network is a neural network model which contrary to DGCNN can characterize non-linear relations among two channels of an EEG. This model is like an improved version of LSTM (Long Short Term Memory) for emotion recognition. Even if the three cited models are independent of each other, we can see that from the ATDD-LSTM and DGCNN we can learn useful information about the relationship between different channels of the EEG. These two models are trained with the extracted features given with the dataset, these features are general features of EEG signals. But, we can imagine that if we learn these two algorithms with better features like probably with the one given by the neural network based on the BiDANN framework we could achieve better performance and a better understanding of the data. 
 
-### III) Project management
+### III) Notebook Guide
 
-Because we are a team of three members, we found that making one member responsible for one model can be a good idea. Like this, we can avoid some code understanding problems. Moreover, because we will be responsible for one architecture and we will have to explain it to the team in the future, a such split will give us a deeper understanding of what we did during this project. Although we are each responsible for one part of the project, that doesn't mean that we don't help each other and that we will just make our piece of code and give it to others.
+#### a) Attention-based LSTM
 
-For the next weeks, Pyae will be responsible for the ADD-LSTM architecture, Anupam to BiDANN framework-based model, and Harold to the DGCNN model. This is our understanding of the project for the moment and the way we will process it. 
+#### b) BiDANN-Framework
 
-You can find the code advancement of each member in the folder Code, and the associated folder. And you can find the documentation in the folder Documentation. 
+#### c) DGCNN
 
-### IV) Week4
+In the notebook GraphConvNetworkChebyshevParameters, you can find how I create the GCNN model and how I varied different parameters to understand the impact of them and find the best one. 
+In the notebook SynthesisScript, you can find the definition of every model I implemented and how I looped across all the datasets to create a table of results. (Unfortunately, when I ran this notebook on my computer Python crashed. To be able, to create the table of results I ran 4 different notebooks for each model and I hoped that Python will not crashed, python crashed for one with the use of the norm mod Laplacian. This 4 notebooks are the other one in the folder.)
 
-To be clearer in our advancement, we decided to split the update part between each member
 
-#### a) Pyae
-On data preprocesssing and working on github lstm code.
-also reviewing paper A LSTM based deep learning network for recognizing emotions using wireless brainwave driven system
-
-#### b) Anupam
-I am still working on data preprocesing . I have already divided my datasets for left,right for one sample and with all electrodes which is needed for different cases. i  divided my data to 9s windows or 9 step for the data processing. Now i need to work for whole datasets. For the model, i prepared the lstm feature extractor and classifier model. I also reviewing the paper " Domain-Adversarial Training of Neural Networks" paper which is in the later part after lstm. I started to build a model for GRL but not completed. I have uploaded the code of the ongoing work of mine in code section. 
-
-I planned to complete the data processing part and lstm with GRL and Discriminator in the next week and test my model.
-
-#### c) Harold
-
-This week I implemented my first DGCNN model. I will explain in more detail what steps I followed during the interview on the 15th of November, and according to what will be said during this interview I will update the GitHub properly. However, the results got are not good, and I am trying to fix all errors I possibly made during the implementation. 
-
-Indeed, in the beginning, I obtained a constant loss and a constant accuracy for both training and test set during the training when I used even numbers of Chebyshev coefficients. When I used odd numbers of Chebyshev coefficients, I obtained an unstable loss for both training and test set and also a non-sense accuracy. It appeared that this instability came from the fact that I didn't normalize the extracted EEG signals. The origin of the constant loss was due to the fact the Chebyshev approximation obtained was a matrix with only negative coefficients, so when this matrix was evaluated by the ReLU function we got a null matrix and so a null gradient, and this for all signals. The origin of the instability was due to the non-normalization of the data. By normalizing the data, the Chebyshev approximation on the signal is no longer composed only of negative coefficients, and the Chebyshev approximation is far more stable. The other problem faced was the only use of the ReLU function as activate functions in the model. Especially, with le linear layer, I noticed that the same phenomenon of ReLU output with only zeros coefficients occurred between the two linear layers. To counter this problem I chose to use tanh function as activating function for the moment. Also, this week I also saw that there was a pytorch dedicated library called [pytorch-geometric](https://pytorch-geometric.readthedocs.io/en/latest/). In this library all the graph functions I use are already implemented. Nevertheless, since I got difficulties to import it and I already implemented almost every useful functions, I didn't spend more time to try import it. Nevertheless, once the implementation ready, I am planning to compare my results with the one from this library. To finish, there is one big issue I faced and I don't really fixed or have a clear answer, I hope you can help me. When I run my code, sometimes Python crashe. There is no error message, just the windows pop up with the message Python stops working please wait until we find a solution and after that the only solution is stop the program. So, I have to restart the kernel and I get the same message error. My search on the web may suppose that my pytorch program use the total amount of RAM available on my computer when I run the code. Or, the CPU of my computer cannot handle the calculation. I think that the second hypothesis is not the good one. Indeed, when I run other
-deep learning python script like a CNN script even if my CPU use is 100%, I don't have this problem. So, I think it is a RAM problem, 
-but do you know how can I fix it? Is there any tricks to do it? 
-
-Now I'm still having a non understandable training of the model. Even if it's non understandable yet, it makes more sense (at least for myself). For the upcoming week, I am will work on understand what's wrong and try to fix it. 
-
-*I update the code on the repository*
