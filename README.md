@@ -31,7 +31,7 @@ The ATDD-LSTM neural network is a neural network model which contrary to DGCNN c
 All scripts can be found in the script folder in the specified model implemented. Below is the instructions of each member on which notebook you should pay attention.
 
 #### a) Attention-based LSTM
-The file is in the ADD-LSTM folder /EEG-Project/blob/main/Code/ADD-LSTM/BCI%20EEG%20CPDSAI.ipynb. In this notebook i have implement lstm model with the reference to my paper.
+The file is in the ADD-LSTM folder /EEG-Project/blob/main/Code/ADD-LSTM/BCI%20EEG%20CPDSAI.ipynb. In this notebook I have implement lstm model with the reference to my paper. Before that I played around preprocessed data with mnePython.
 
 #### b) BiDANN-Framework
  In github, please find the code in EEG-Project/Code/BiDANN/main_project.ipynb. The final code name is main_project.ipynb. In the notebokk i have two model result. The first one is based on my bidann paper which is the starting method in the notebook. In bidann, i used lstm as a feature extractor and classifier for mapping with label space. The second method, i used BILSTM method for the same datasets. I have written two  method as first method and second method. In first method, the main program start from "Main Data Processing for Differential entrophy feature". Before that part, I only want to show the preprocessed eeg signal data format, number of features in extracted features, and plot of preprocessed signal as well as differential entrophy LDS plot.
