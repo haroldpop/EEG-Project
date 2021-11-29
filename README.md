@@ -37,6 +37,6 @@ All scripts can be found in the script folder in the specified model implemented
 #### c) DGCNN
 
 In the notebook GraphConvNetworkChebyshevParameters, you can find how I create the GCNN model and how I varied different parameters to understand the impact of them and find the best one. 
-In the notebook SynthesisScript, you can find the definition of every model I implemented and how I looped across all the datasets to create a table of results. (Unfortunately, when I ran this notebook on my computer Python crashed. To be able, to create the table of results I ran 4 different notebooks for each model and I hoped that Python will not crashed, python crashed for one with the use of the norm mod Laplacian. This 4 notebooks are the other one in the folder.)
+In the notebook SynthesisScript, you can find the definition of every model I implemented and how I looped across all the datasets to create a table of results. (Unfortunately, when I ran this notebook on my computer Python crashed. To be able, to create the table of results I ran 4 different notebooks, python crashed for one with the use of the norm mod Laplacian. This 4 notebooks are the other one in the folder.)
 
 
